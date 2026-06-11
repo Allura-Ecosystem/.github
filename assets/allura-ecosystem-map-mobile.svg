@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="750" height="1320" viewBox="0 0 750 1320" role="img" aria-labelledby="title desc">
+  <title id="title">allura public ecosystem map for narrow screens</title>
+  <desc id="desc">A vertical public-safe map connecting Allura Memory, Allura Desktop, Team RAM, protocols, and the reserved allura repository.</desc>
+  <rect width="750" height="1320" rx="32" fill="#F5F1E6"/>
+  <circle cx="680" cy="80" r="125" fill="#C89B3C" opacity=".12"/>
+  <text x="54" y="90" fill="#111827" font-family="Georgia, serif" font-size="48" font-weight="700">The allura ecosystem</text>
+  <text x="54" y="135" fill="#475569" font-family="Arial, sans-serif" font-size="24">Governed memory connects every public surface.</text>
+
+  <rect x="54" y="190" width="642" height="230" rx="30" fill="#FBF7ED" stroke="#C89B3C" stroke-width="5"/>
+  <text x="375" y="270" text-anchor="middle" fill="#111827" font-family="Georgia, serif" font-size="42" font-weight="700">Allura Memory</text>
+  <text x="375" y="315" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif" font-size="25">governed memory engine</text>
+  <text x="375" y="360" text-anchor="middle" fill="#111827" font-family="Arial, sans-serif" font-size="22">Evidence, review, provenance, and human agency.</text>
+  <rect x="245" y="382" width="260" height="38" rx="19" fill="#157A4A"/>
+  <text x="375" y="408" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="18" font-weight="700">SOURCE + PROVENANCE</text>
+
+  <path d="M375 420 V470" stroke="#1D4ED8" stroke-width="7" stroke-linecap="round"/>
+  <rect x="54" y="470" width="642" height="170" rx="28" fill="#FBF7ED" stroke="#8CA7E8" stroke-width="4"/>
+  <rect x="54" y="470" width="16" height="170" rx="8" fill="#1D4ED8"/>
+  <text x="100" y="525" fill="#111827" font-family="Georgia, serif" font-size="34" font-weight="700">Allura Desktop</text>
+  <text x="100" y="565" fill="#475569" font-family="Arial, sans-serif" font-size="23">Operator command center</text>
+  <text x="100" y="605" fill="#111827" font-family="Arial, sans-serif" font-size="21">Inspect memory, evidence, governance, and audit state.</text>
+
+  <path d="M375 640 V690" stroke="#FF5A2E" stroke-width="7" stroke-linecap="round"/>
+  <rect x="54" y="690" width="642" height="170" rx="28" fill="#FBF7ED" stroke="#F5A087" stroke-width="4"/>
+  <rect x="680" y="690" width="16" height="170" rx="8" fill="#FF5A2E"/>
+  <text x="100" y="745" fill="#111827" font-family="Georgia, serif" font-size="34" font-weight="700">Team RAM</text>
+  <text x="100" y="785" fill="#475569" font-family="Arial, sans-serif" font-size="23">Agent engineering harness</text>
+  <text x="100" y="825" fill="#111827" font-family="Arial, sans-serif" font-size="21">Build with documented intent, tests, receipts, and review.</text>
+
+  <path d="M375 860 V910" stroke="#157A4A" stroke-width="7" stroke-linecap="round"/>
+  <rect x="54" y="910" width="642" height="150" rx="28" fill="#FBF7ED" stroke="#79AE91" stroke-width="4"/>
+  <rect x="54" y="910" width="16" height="150" rx="8" fill="#157A4A"/>
+  <text x="100" y="965" fill="#111827" font-family="Georgia, serif" font-size="34" font-weight="700">Protocols</text>
+  <text x="100" y="1005" fill="#475569" font-family="Arial, sans-serif" font-size="23">MCP and API access keep the engine portable.</text>
+
+  <path d="M375 1060 V1110" stroke="#C89B3C" stroke-width="7" stroke-linecap="round"/>
+  <rect x="54" y="1110" width="642" height="150" rx="28" fill="#FBF7ED" stroke="#D9BC78" stroke-width="4"/>
+  <rect x="680" y="1110" width="16" height="150" rx="8" fill="#C89B3C"/>
+  <text x="100" y="1165" fill="#111827" font-family="Georgia, serif" font-size="34" font-weight="700">allura</text>
+  <text x="100" y="1205" fill="#475569" font-family="Arial, sans-serif" font-size="23">Reserved public repository with no public docs yet.</text>
+  <text x="375" y="1300" text-anchor="middle" fill="#475569" font-family="Arial, sans-serif" font-size="18">Only public repositories are shown.</text>
+</svg>
