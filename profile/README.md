@@ -1,55 +1,49 @@
 # allura
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-wordmark.png" alt="allura" width="420">
+  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-wordmark.png" alt="allura" width="360">
 </p>
 
 **MEMORY THAT SHOWS ITS WORK**
 
-allura is an open-source ecosystem for governed AI memory. It helps agent
-systems preserve context, show where knowledge came from, and place human
-approval between raw evidence and long-term knowledge.
+allura is a self-hosted, governed memory engine for AI systems. It preserves
+raw evidence, places review between capture and reusable knowledge, and keeps
+provenance attached when memory is retrieved.
 
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-ecosystem-map-mobile.svg">
-  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-ecosystem-map.svg" alt="Map of the public allura ecosystem connecting Allura Memory, Allura Desktop, Team RAM, protocols, and the reserved allura repository." width="100%">
-</picture>
+## Canonical Project
 
-## Start Here
+[`Allura_Memory`](https://github.com/Allura-Ecosystem/Allura_Memory) is the
+authoritative public product repository.
 
-Begin with
-[`Allura_Memory`](https://github.com/Allura-Ecosystem/Allura_Memory).
-Its documentation explains the memory model, architecture, installation path,
-governance rules, and supported agent integrations.
+Its code and documentation define the engine boundary, memory lifecycle,
+governance rules, supported interfaces, and current implementation status.
 
-## Public Repositories
+## What allura Does
 
-| Repository | Public role |
+1. Captures agent activity as append-only episodic evidence in PostgreSQL.
+2. Scores candidate memory and routes governed knowledge through review.
+3. Promotes approved knowledge into a versioned Neo4j semantic graph.
+4. Retrieves scoped memory through controlled MCP and API interfaces.
+5. Preserves source, actor, decision, and audit context through the lifecycle.
+
+## Product Surfaces
+
+| Surface | Role |
 | --- | --- |
-| [`Allura_Memory`](https://github.com/Allura-Ecosystem/Allura_Memory) | Self-hosted memory and governance engine for AI agents |
-| [`Allura_Desktop`](https://github.com/Allura-Ecosystem/Allura_Desktop) | Tauri-based desktop command-center project for the allura ecosystem |
-| [`allura-team-ram`](https://github.com/Allura-Ecosystem/allura-team-ram) | Agent harness with surgical-team orchestration for the allura ecosystem |
-| [`allura`](https://github.com/Allura-Ecosystem/allura) | Reserved public ecosystem repository; no public documentation is available yet |
+| **Allura Memory Engine** | Canonical memory data plane and source of truth |
+| **MCP and API** | Primary integration path for agents and applications |
+| **Memory Command Center** | Optional, launch-gated operator view over the same governed contracts |
+| **Curator and RuVix governance** | Human review, policy disposition, and evidence receipts |
 
-Descriptions above are deliberately narrow. Each repository's code and
-documentation remain authoritative for its implemented and planned behavior.
+The Memory Command Center is not a second memory system. It may inspect and
+request governed actions, but it cannot bypass the engine or own canonical
+state.
 
-## How allura Treats Memory
+## Repository Scope
 
-allura separates raw evidence from approved knowledge:
-
-1. Agent activity is captured as traceable, append-only evidence.
-2. Candidate knowledge is scored and placed behind a review boundary.
-3. Approved knowledge is promoted with provenance and audit history intact.
-4. Retrieval preserves tenant boundaries and source context.
-
-The system is designed around inspectability, governance, self-hosting, and
-human agency over stored knowledge.
-
-<picture>
-  <source media="(max-width: 600px)" srcset="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/governed-memory-flow-mobile.svg">
-  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/governed-memory-flow.svg" alt="Five-stage governed memory flow: capture evidence, evaluate candidates, human review, promote approved knowledge, and retrieve with provenance." width="100%">
-</picture>
+GitHub may display other public repositories owned by this organization. Some
+are supporting experiments, delivery harnesses, or reserved namespaces. Their
+visibility does not make them equal parts of the allura product.
 
 ## Governance Principles
 
@@ -60,16 +54,10 @@ human agency over stored knowledge.
 - Explicit degraded or unknown states
 - Reproducible verification for public claims
 
-## Public Scope
+## Start Here
 
-This page describes only repositories and capabilities visible in the public
-organization. Private work, internal infrastructure, client implementations,
-and unverified runtime status are intentionally excluded.
-
-## Participate
-
-- Read [CONTRIBUTING.md](https://github.com/Allura-Ecosystem/.github/blob/main/CONTRIBUTING.md) before proposing changes.
-- Report security concerns using [SECURITY.md](https://github.com/Allura-Ecosystem/.github/blob/main/SECURITY.md).
-- Follow the [Code of Conduct](https://github.com/Allura-Ecosystem/.github/blob/main/CODE_OF_CONDUCT.md).
+Read the
+[`Allura_Memory` documentation](https://github.com/Allura-Ecosystem/Allura_Memory#readme)
+for architecture, installation, integration paths, and current evidence.
 
 allura is memory that shows its work. Its public claims should do the same.
