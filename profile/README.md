@@ -1,10 +1,18 @@
 # Allura
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-wordmark.png" alt="Allura" width="420">
+</p>
+
 **MEMORY THAT SHOWS ITS WORK**
 
 Allura is an open-source ecosystem for governed AI memory. It helps agent
 systems preserve context, show where knowledge came from, and place human
 approval between raw evidence and long-term knowledge.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-ecosystem-map.svg" alt="Map of the public Allura ecosystem connecting Allura Memory, Allura Desktop, Team RAM, protocols, and the reserved allura repository." width="100%">
+</p>
 
 ## Start Here
 
@@ -36,6 +44,10 @@ Allura separates raw evidence from approved knowledge:
 
 The system is designed around inspectability, governance, self-hosting, and
 human agency over stored knowledge.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/governed-memory-flow.svg" alt="Five-stage governed memory flow: capture evidence, evaluate candidates, human review, promote approved knowledge, and retrieve with provenance." width="100%">
+</p>
 
 ## Governance Principles
 

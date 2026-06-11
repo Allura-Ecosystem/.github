@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Allura public ecosystem map</title>
+  <desc id="desc">A public-safe map connecting Allura Memory, Allura Desktop, Team RAM, protocols, and the reserved allura repository.</desc>
+  <rect width="1600" height="900" rx="36" fill="#F5F1E6"/>
+  <circle cx="1460" cy="115" r="170" fill="#C89B3C" opacity=".12"/>
+  <circle cx="95" cy="815" r="210" fill="#1D4ED8" opacity=".08"/>
+  <text x="90" y="110" fill="#111827" font-family="Georgia, serif" font-size="58" font-weight="700">The Allura ecosystem</text>
+  <text x="92" y="160" fill="#334155" font-family="Arial, sans-serif" font-size="25">Public tools connected by governed memory, provenance, and human agency.</text>
+  <path d="M520 405 C650 300 735 300 800 360" fill="none" stroke="#1D4ED8" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1080 405 C950 300 865 300 800 360" fill="none" stroke="#FF5A2E" stroke-width="8" stroke-linecap="round"/>
+  <path d="M520 665 C650 745 735 715 800 650" fill="none" stroke="#157A4A" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1080 665 C950 745 865 715 800 650" fill="none" stroke="#C89B3C" stroke-width="8" stroke-linecap="round"/>
+  <rect x="575" y="285" width="450" height="390" rx="36" fill="#111827"/>
+  <circle cx="800" cy="405" r="66" fill="#1D4ED8"/>
+  <circle cx="800" cy="405" r="34" fill="#F5F1E6"/>
+  <text x="800" y="520" text-anchor="middle" fill="#F5F1E6" font-family="Georgia, serif" font-size="46" font-weight="700">Allura Memory</text>
+  <text x="800" y="565" text-anchor="middle" fill="#CBD5E1" font-family="Arial, sans-serif" font-size="22">governed memory engine</text>
+  <rect x="690" y="605" width="220" height="42" rx="21" fill="#157A4A"/>
+  <text x="800" y="633" text-anchor="middle" fill="#FFFFFF" font-family="Arial, sans-serif" font-size="18" font-weight="700">SOURCE + PROVENANCE</text>
+  <rect x="90" y="265" width="430" height="235" rx="30" fill="#FFFFFF" stroke="#1D4ED8" stroke-width="5"/>
+  <rect x="90" y="265" width="16" height="235" rx="8" fill="#1D4ED8"/>
+  <text x="145" y="335" fill="#111827" font-family="Georgia, serif" font-size="38" font-weight="700">Allura Desktop</text>
+  <text x="145" y="382" fill="#475569" font-family="Arial, sans-serif" font-size="21">Operator command center</text>
+  <text x="145" y="428" fill="#111827" font-family="Arial, sans-serif" font-size="19">Inspect memory, evidence,</text>
+  <text x="145" y="458" fill="#111827" font-family="Arial, sans-serif" font-size="19">governance, and audit state.</text>
+  <rect x="1080" y="265" width="430" height="235" rx="30" fill="#FFFFFF" stroke="#FF5A2E" stroke-width="5"/>
+  <rect x="1494" y="265" width="16" height="235" rx="8" fill="#FF5A2E"/>
+  <text x="1135" y="335" fill="#111827" font-family="Georgia, serif" font-size="38" font-weight="700">Team RAM</text>
+  <text x="1135" y="382" fill="#475569" font-family="Arial, sans-serif" font-size="21">Agent engineering harness</text>
+  <text x="1135" y="428" fill="#111827" font-family="Arial, sans-serif" font-size="19">Build with documented intent,</text>
+  <text x="1135" y="458" fill="#111827" font-family="Arial, sans-serif" font-size="19">tests, receipts, and review.</text>
+  <rect x="90" y="570" width="430" height="205" rx="30" fill="#FFFFFF" stroke="#157A4A" stroke-width="5"/>
+  <rect x="90" y="570" width="16" height="205" rx="8" fill="#157A4A"/>
+  <text x="145" y="640" fill="#111827" font-family="Georgia, serif" font-size="38" font-weight="700">Protocols</text>
+  <text x="145" y="686" fill="#475569" font-family="Arial, sans-serif" font-size="21">MCP and API access</text>
+  <text x="145" y="728" fill="#111827" font-family="Arial, sans-serif" font-size="19">Portable interfaces keep the</text>
+  <text x="145" y="758" fill="#111827" font-family="Arial, sans-serif" font-size="19">engine usable beyond one UI.</text>
+  <rect x="1080" y="570" width="430" height="205" rx="30" fill="#FFFFFF" stroke="#C89B3C" stroke-width="5"/>
+  <rect x="1494" y="570" width="16" height="205" rx="8" fill="#C89B3C"/>
+  <text x="1135" y="640" fill="#111827" font-family="Georgia, serif" font-size="38" font-weight="700">allura</text>
+  <text x="1135" y="686" fill="#475569" font-family="Arial, sans-serif" font-size="21">Reserved public repository</text>
+  <text x="1135" y="728" fill="#111827" font-family="Arial, sans-serif" font-size="19">A visible boundary for future</text>
+  <text x="1135" y="758" fill="#111827" font-family="Arial, sans-serif" font-size="19">public ecosystem work.</text>
+  <text x="800" y="840" text-anchor="middle" fill="#334155" font-family="Arial, sans-serif" font-size="19">Only public repositories are shown. Repository documentation remains authoritative.</text>
+</svg>
