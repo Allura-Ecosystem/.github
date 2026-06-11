@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="760" viewBox="0 0 1600 760" role="img" aria-labelledby="title desc">
-  <title id="title">Allura governed memory flow</title>
+  <title id="title">allura governed memory flow</title>
   <desc id="desc">A five-stage flow from captured evidence through evaluation, human review, approved knowledge, and retrieval with provenance.</desc>
   <defs>
     <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">

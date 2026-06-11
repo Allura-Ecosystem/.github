@@ -6,7 +6,7 @@
 
 **MEMORY THAT SHOWS ITS WORK**
 
-Allura is an open-source ecosystem for governed AI memory. It helps agent
+allura is an open-source ecosystem for governed AI memory. It helps agent
 systems preserve context, show where knowledge came from, and place human
 approval between raw evidence and long-term knowledge.
 
@@ -27,16 +27,16 @@ governance rules, and supported agent integrations.
 | Repository | Public role |
 | --- | --- |
 | [`Allura_Memory`](https://github.com/Allura-Ecosystem/Allura_Memory) | Self-hosted memory and governance engine for AI agents |
-| [`Allura_Desktop`](https://github.com/Allura-Ecosystem/Allura_Desktop) | Tauri-based desktop command-center project for the Allura ecosystem |
-| [`allura-team-ram`](https://github.com/Allura-Ecosystem/allura-team-ram) | Agent harness with surgical-team orchestration for the Allura ecosystem |
+| [`Allura_Desktop`](https://github.com/Allura-Ecosystem/Allura_Desktop) | Tauri-based desktop command-center project for the allura ecosystem |
+| [`allura-team-ram`](https://github.com/Allura-Ecosystem/allura-team-ram) | Agent harness with surgical-team orchestration for the allura ecosystem |
 | [`allura`](https://github.com/Allura-Ecosystem/allura) | Reserved public ecosystem repository; no public documentation is available yet |
 
 Descriptions above are deliberately narrow. Each repository's code and
 documentation remain authoritative for its implemented and planned behavior.
 
-## How Allura Treats Memory
+## How allura Treats Memory
 
-Allura separates raw evidence from approved knowledge:
+allura separates raw evidence from approved knowledge:
 
 1. Agent activity is captured as traceable, append-only evidence.
 2. Candidate knowledge is scored and placed behind a review boundary.
@@ -72,4 +72,4 @@ and unverified runtime status are intentionally excluded.
 - Report security concerns using [SECURITY.md](https://github.com/Allura-Ecosystem/.github/blob/main/SECURITY.md).
 - Follow the [Code of Conduct](https://github.com/Allura-Ecosystem/.github/blob/main/CODE_OF_CONDUCT.md).
 
-Allura is memory that shows its work. Its public claims should do the same.
+allura is memory that shows its work. Its public claims should do the same.
