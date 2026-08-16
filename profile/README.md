@@ -22,7 +22,7 @@ governance rules, supported interfaces, and current implementation status.
 
 1. Captures agent activity as append-only episodic evidence in PostgreSQL.
 2. Scores candidate memory and routes governed knowledge through review.
-3. Promotes approved knowledge into a versioned Neo4j semantic graph.
+3. Promotes approved knowledge into versioned PostgreSQL canonical graph tables.
 4. Retrieves scoped memory through controlled MCP and API interfaces.
 5. Preserves source, actor, decision, and audit context through the lifecycle.
 
@@ -59,5 +59,18 @@ visibility does not make them equal parts of the allura product.
 Read the
 [`Allura_Memory` documentation](https://github.com/Allura-Ecosystem/Allura_Memory#readme)
 for architecture, installation, integration paths, and current evidence.
+
+For a framework-level overview mapping the codebase to agentic AI concepts
+(orchestration, memory patterns, policy hooks, harness/eval, SDK design), see
+[`FRAMEWORK.md`](https://github.com/Allura-Ecosystem/Allura_Memory/blob/main/FRAMEWORK.md).
+
+## Ecosystem Repositories
+
+| Repository | Role |
+| --- | --- |
+| [`Allura_Memory`](https://github.com/Allura-Ecosystem/Allura_Memory) | Canonical memory engine, MCP server, SDK, governance kernel |
+| [`allura-plugins`](https://github.com/Allura-Ecosystem/allura-plugins) | Plugin catalog, eval harnesses, contract validation, generated adapters |
+| [`allura-team-ram`](https://github.com/Allura-Ecosystem/allura-team-ram) | Agent orchestration harness — execution, lifecycle, sandbox, trajectory |
+| [`Allura-ecosystem`](https://github.com/Allura-Ecosystem/Allura-ecosystem) | Ecosystem map, governance policies, enforcement plugin, architecture docs |
 
 allura is memory that shows its work. Its public claims should do the same.
