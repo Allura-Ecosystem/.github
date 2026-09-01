@@ -68,9 +68,11 @@ For a framework-level overview mapping the codebase to agentic AI concepts
 
 | Repository | Role |
 | --- | --- |
-| [`Allura_Memory`](https://github.com/Allura-Ecosystem/Allura_Memory) | Canonical memory engine, MCP server, SDK, governance kernel |
-| [`allura-plugins`](https://github.com/Allura-Ecosystem/allura-plugins) | Plugin catalog, eval harnesses, contract validation, generated adapters |
-| [`allura-team-ram`](https://github.com/Allura-Ecosystem/allura-team-ram) | Agent orchestration harness — execution, lifecycle, sandbox, trajectory |
-| [`Allura-ecosystem`](https://github.com/Allura-Ecosystem/Allura-ecosystem) | Ecosystem map, governance policies, enforcement plugin, architecture docs |
+| [`Allura_Memory`](https://github.com/Allura-Ecosystem/Allura_Memory) | Canonical governed memory engine, MCP server, SDK, policy hooks, and evidence authority |
+| [`allura-team-ram`](https://github.com/Allura-Ecosystem/allura-team-ram) | Canonical governed multi-agent software-delivery harness for OpenCode, Claude Code, and Codex |
+| [`team-durham`](https://github.com/Allura-Ecosystem/team-durham) | Canonical governed multi-agent brand-production harness for strategy, design, accessibility, evidence, and QA |
+| [`mortagate`](https://github.com/Allura-Ecosystem/mortagate) | Canonical Microsoft Copilot Cowork mortgage evidence-review product |
+| [`allura-plugins`](https://github.com/Allura-Ecosystem/allura-plugins) | Installation catalog and pinned generated exports from the standalone canonical repositories |
+| [`Allura-ecosystem`](https://github.com/Allura-Ecosystem/Allura-ecosystem) | Ecosystem map, governance policies, enforcement plugin, and architecture index |
 
 allura is memory that shows its work. Its public claims should do the same.
