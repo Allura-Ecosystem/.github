@@ -24,7 +24,7 @@
   <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-ecosystem-map-v1.png" alt="Allura Ecosystem Map: how memory, teams, and plugins work together around the Allura Memory/Brain core." width="960">
 </p>
 
-Allura is the sovereign memory layer for AI. It gives teams and agents a trusted memory, connected context, and the tools to turn work into intelligent outcomes. The memory engine sits at the center; Team RAM, Team Durham, Allura Plugins, and Curator & Governance feed it evidence and draw governed context from it, and everything converges on the apps, agents, and outputs the system produces.
+Allura is the governed memory layer for AI. It gives teams and agents a trusted memory, connected context, and the tools to turn work into intelligent outcomes. The memory engine sits at the center; Team RAM, Team Durham, Allura Plugins, and Curator & Governance feed it evidence and draw governed context from it, and everything converges on the apps, agents, and outputs the system produces.
 
 ### Team RAM — AI engineering workforce
 
@@ -75,7 +75,7 @@ Allura is built as a **reusable agent framework and harness for enterprise softw
 | **SDK, API & CLI design** | Typed SDK (ESM + CJS), `allura run` / `allura replay` CLI, and a canonical HTTP gateway — one developer surface over the governed contracts. |
 | **Framework scale & governance** | 59 forward-only migrations with forced RLS, immutable SHA-bound receipts, and CI evidence lanes that aggregate unit, build, live-PostgreSQL, benchmark, and evaluation artifacts. |
 
-Every capability above is code, not copy — each maps to named source paths in [`FRAMEWORK.md`](https://github.com/Allura-Ecosystem/Allura_Memory/blob/main/FRAMEWORK.md), and the engineering narrative is in the [principal engineer case study](https://github.com/Allura-Ecosystem/Allura_Memory/blob/main/docs/portfolio/principal-engineer-case-study.md).
+Every capability above is code, not copy — each maps to named source paths in [`FRAMEWORK.md`](https://github.com/Allura-Ecosystem/Allura_Memory/blob/main/FRAMEWORK.md), and the engineering narrative is in the [engineering case study](https://github.com/Allura-Ecosystem/Allura_Memory/blob/main/docs/portfolio/framework-case-study.md).
 
 ## Start with the source of truth
 
