@@ -18,6 +18,50 @@
 
 ---
 
+## How the ecosystem works
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-ecosystem-map-v1.png" alt="Allura Ecosystem Map: how memory, teams, and plugins work together around the Allura Memory/Brain core." width="960">
+</p>
+
+Allura is the sovereign memory layer for AI. It gives teams and agents a trusted memory, connected context, and the tools to turn work into intelligent outcomes. The memory engine sits at the center; Team RAM, Team Durham, Allura Plugins, and Curator & Governance feed it evidence and draw governed context from it, and everything converges on the apps, agents, and outputs the system produces.
+
+### Team RAM — AI engineering workforce
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-team-ram-v1.png" alt="Team RAM: AI Engineering Workforce. Task intake, Brooks orchestration, specialist functions (architecture, coding, review, testing, governance, routing), verification, merge and delivery, and lessons and memory." width="960">
+</p>
+
+Team RAM is the engineering workforce inside Allura: architecture, coding, testing, governance, routing, and self-improving workflows. You define the goal; the team builds it, verifies it, and makes it better.
+
+### Team Durham — AI design & brand workforce
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-team-durham-v1.png" alt="Team Durham: AI Design and Brand Workforce. Discovery, strategy, messaging, UX, UI, accessibility, visual QA, and analytics loop." width="960">
+</p>
+
+Team Durham is the design, brand, and experience workforce inside the Allura ecosystem: strategy, UX, content, visual design, accessibility, and presentation quality — turning ideas into experiences that are clear, beautiful, inclusive, and on-brand.
+
+### Team RAM vs Team Durham
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-team-ram-vs-durham-v1.png" alt="Team RAM vs Team Durham: RAM builds the system, Durham shapes the experience, and where they meet on product direction, human-centered AI, quality, and the final experience." width="960">
+</p>
+
+One builds the engine. One shapes the ride. When RAM and Durham work together, Allura delivers production-ready AI products that are powerful, human-centered, and built to last.
+
+### One task across the Allura workforce
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-one-task-workforce-v1.png" alt="One task across the Allura workforce: a user request enters, Allura Memory/Brain understands and recalls, Team RAM builds the logic, Team Durham shapes the UX and message, plugins supply tools, Curator and Governance verifies, the final product is delivered, and feedback returns to memory." width="960">
+</p>
+
+Every task flows through the same governed loop: memory understands intent and retrieves context, the workforces build and shape, governance verifies, and feedback strengthens memory for the next task.
+
+<p align="center"><sub>Ecosystem infographics. Allura’s published capabilities and implementation boundary are documented below.</sub></p>
+
+---
+
 ## Start with the source of truth
 
 [`Allura_Memory`](https://github.com/Allura-Ecosystem/Allura_Memory) is the authoritative public product repository. Its code and documentation define the engine boundary, memory lifecycle, governance rules, supported interfaces, and current implementation status.
