@@ -62,6 +62,21 @@ Every task flows through the same governed loop: memory understands intent and r
 
 ---
 
+## Agentic AI framework & harness
+
+Allura is built as a **reusable agent framework and harness for enterprise software delivery** — the same capabilities that let engineering teams design, compose, test, and operationalize agentic workflows with correctness, composability, governance, and testability at scale.
+
+| Capability | What Allura provides |
+| --- | --- |
+| **Agent orchestration & execution** | DAG-based process engine with step lifecycle events, checkpoint continuation, and event-sourced replay for deterministic runs. |
+| **Memory patterns** | Append-only episodic ledger plus a curator-gated semantic layer over one PostgreSQL engine, with branchable working memory and tenant-scoped retrieval. |
+| **Policy hooks & tool calling** | Control plane with 12 syscalls; every mutation requires proof-of-intent then policy evaluation before dispatch, through an authenticated MCP gateway with fail-closed tool calling. |
+| **Simulator harness & evaluation** | Deterministic scenario runner with tool simulators, byte-for-byte receipt replay for determinism proof, and eval suites over scenario runs. |
+| **SDK, API & CLI design** | Typed SDK (ESM + CJS), `allura run` / `allura replay` CLI, and a canonical HTTP gateway — one developer surface over the governed contracts. |
+| **Framework scale & governance** | 59 forward-only migrations with forced RLS, immutable SHA-bound receipts, and CI evidence lanes that aggregate unit, build, live-PostgreSQL, benchmark, and evaluation artifacts. |
+
+Every capability above is code, not copy — each maps to named source paths in [`FRAMEWORK.md`](https://github.com/Allura-Ecosystem/Allura_Memory/blob/main/FRAMEWORK.md), and the engineering narrative is in the [principal engineer case study](https://github.com/Allura-Ecosystem/Allura_Memory/blob/main/docs/portfolio/principal-engineer-case-study.md).
+
 ## Start with the source of truth
 
 [`Allura_Memory`](https://github.com/Allura-Ecosystem/Allura_Memory) is the authoritative public product repository. Its code and documentation define the engine boundary, memory lifecycle, governance rules, supported interfaces, and current implementation status.
