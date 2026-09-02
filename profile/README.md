@@ -11,10 +11,10 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-governed-memory-hero-v1.png" alt="Four collaborators around a shared table, with calm Allura-colored objects that represent context, care, and connected memory." width="960">
+  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-governance-flow-diagram-v1.png" alt="Governance is part of the flow: a proposed action passes through policy, human approval, and evidence retention around the Allura agent workflow." width="960">
 </p>
 
-<p align="center"><sub>Product-support image. Allura’s published capabilities and implementation boundary are documented below.</sub></p>
+<p align="center"><sub>Product-support diagram. Allura’s published capabilities and implementation boundary are documented below.</sub></p>
 
 ---
 
