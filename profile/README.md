@@ -42,14 +42,6 @@ Team RAM is the engineering workforce inside Allura: architecture, coding, testi
 
 Team Durham is the design, brand, and experience workforce inside the Allura ecosystem: strategy, UX, content, visual design, accessibility, and presentation quality — turning ideas into experiences that are clear, beautiful, inclusive, and on-brand.
 
-### Team RAM vs Team Durham
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-team-ram-vs-durham-v1.png" alt="Team RAM vs Team Durham: RAM builds the system, Durham shapes the experience, and where they meet on product direction, human-centered AI, quality, and the final experience." width="960">
-</p>
-
-One builds the engine. One shapes the ride. When RAM and Durham work together, Allura delivers production-ready AI products that are powerful, human-centered, and built to last.
-
 ### One task across the Allura workforce
 
 <p align="center">
