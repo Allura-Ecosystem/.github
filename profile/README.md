@@ -112,6 +112,18 @@ For a framework-level view of orchestration, memory patterns, policy hooks, harn
 
 The Memory Command Center is not a second memory system. It may inspect and request governed actions, but it cannot bypass the engine or own canonical state.
 
+## The framework applied: bumblebee
+
+Bumblebee is a governed supply-chain threat-intelligence plugin: a pinned upstream scanner wrapped as a deterministic, policy-gated Allura agent tool. It is the framework above in production form — orchestration, least-privilege credentials, fail-closed ingest, policy-gated promotion, and evidence retained at every step.
+
+|  |  |
+| --- | --- |
+| <a href="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-bumblebee-scan-to-trusted-exposure-v1.png"><img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-bumblebee-scan-to-trusted-exposure-v1.png" alt="From scan to trusted exposure: a developer endpoint is scanned by the pinned Bumblebee scanner, results pass lease issuance, secure ingest, validation, and promotion or hold, and exposure recomputation feeds a governed response back to the developer endpoint." width="300" /></a><br/><sub><strong>From scan to trusted exposure</strong></sub> | <a href="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-bumblebee-zero-trust-by-design-v1.png"><img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-bumblebee-zero-trust-by-design-v1.png" alt="Zero trust by design: pinned scanner, least-privilege credentials, source-bound lease, HTTPS-only ingest, schema and scope checks, and fail-closed processing. The scanner reports. The server verifies." width="300" /></a><br/><sub><strong>Zero trust by design</strong></sub> |
+| <a href="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-bumblebee-role-based-access-v1.png"><img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-bumblebee-role-based-access-v1.png" alt="Role-based access and scoped authority: a principal with role and permission, source binding, and a scan lease with a short-lived ingest token reaches an allowed action inside a tenant and workspace scope, or access is blocked." width="300" /></a><br/><sub><strong>Role-based access and scoped authority</strong></sub> | <a href="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-bumblebee-vulnerability-proves-itself-v1.png"><img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-bumblebee-vulnerability-proves-itself-v1.png" alt="A vulnerability has to prove itself: a scanner finding becomes a trusted exposure only after the installed package, matching version, and bound advisory catalog are all verified." width="300" /></a><br/><sub><strong>A vulnerability has to prove itself</strong></sub> |
+| <a href="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-bumblebee-trusted-inventory-v1.png"><img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-bumblebee-trusted-inventory-v1.png" alt="Bad scans never replace good inventory: complete, bound, consistent scans promote into the trusted inventory; partial or conflicting scans are held as evidence only." width="300" /></a><br/><sub><strong>Bad scans never replace good inventory</strong></sub> | <a href="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-bumblebee-governance-layer-v1.png"><img src="https://raw.githubusercontent.com/Allura-Ecosystem/.github/main/assets/allura-bumblebee-governance-layer-v1.png" alt="Bumblebee runs on the Allura governance layer: identity, RBAC, and tenant isolation on one side; audit evidence, telemetry, and policy gates on the other." width="300" /></a><br/><sub><strong>Bumblebee runs on the governance layer</strong></sub> |
+
+<sub>Product infographics for the bumblebee plugin. The pinned scanner, ingest pipeline, and policy gates behind every claim are in the [`bumblebee` repository](https://github.com/Allura-Ecosystem/bumblebee).</sub>
+
 ## Principles we build around
 
 - Evidence before completion claims.
@@ -130,7 +142,7 @@ GitHub may display other public repositories owned by this organization. Some ar
 | [`Allura_Memory`](https://github.com/Allura-Ecosystem/Allura_Memory) | Canonical governed memory engine, MCP server, SDK, policy hooks, and evidence authority |
 | [`allura-team-ram`](https://github.com/Allura-Ecosystem/allura-team-ram) | Canonical governed multi-agent software-delivery harness for OpenCode, Claude Code, and Codex |
 | [`team-durham`](https://github.com/Allura-Ecosystem/team-durham) | Canonical governed multi-agent brand-production harness for strategy, design, accessibility, evidence, and QA |
-| [`mortagate`](https://github.com/Allura-Ecosystem/mortagate) | Canonical Microsoft Copilot Cowork mortgage evidence-review product |
+| [`bumblebee`](https://github.com/Allura-Ecosystem/bumblebee) | Governed supply-chain threat-intelligence plugin — a pinned scanner wrapped as a policy-gated Allura agent tool |
 | [`allura-plugins`](https://github.com/Allura-Ecosystem/allura-plugins) | Installation catalog and pinned generated exports from the standalone canonical repositories |
 | [`Allura-ecosystem`](https://github.com/Allura-Ecosystem/Allura-ecosystem) | Ecosystem map, governance policies, enforcement plugin, and architecture index |
 
